@@ -1,6 +1,5 @@
 from fastapi import FastAPI, HTTPException
 app = FastAPI()
-מסד נתונים" בזיכרון" #
 books = []
 counter = 1
 @app.get("/books")
